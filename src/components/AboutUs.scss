@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+
+.gal{
+    width: 100%;
+}
+
+.h2{
+    color: white;
+    font-size: 60px;
+    font-family: 'Lato', sans-serif;
+
+}
+.teaxxt1{
+    position: absolute;
+    color: azure;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    top: 0
+}
+
+.main_about {
+    position: relative;
+}
+.main_daniyal{
+    bottom: 15%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    display: flex;
+    right:10%;
+    font-family: 'Oswald', sans-serif;
+
+}

@@ -1,0 +1,83 @@
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 4em;
+  background-color: #ebebeb;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .spaceLogo {
+  margin: 10px;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+nav .BurgerMenu_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 8px;
+}
+
+nav .BurgerMenu_container i {
+  background-color: gray;
+  width: 32px;
+  height: 4px;
+  margin: 4px;
+  border-radius: 2px;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+nav .BurgerMenu_container .open:nth-child(1) {
+  -webkit-transform: rotate(45deg) translateY(16px);
+          transform: rotate(45deg) translateY(16px);
+}
+
+nav .BurgerMenu_container .open:nth-child(2) {
+  opacity: 0;
+}
+
+nav .BurgerMenu_container .open:nth-child(3) {
+  -webkit-transform: rotate(-45deg) translateY(-16px);
+          transform: rotate(-45deg) translateY(-16px);
+}
+
+nav .BurgerMenu_container .close:nth-child(1) {
+  -webkit-transform: rotate(0) translateY(0);
+          transform: rotate(0) translateY(0);
+}
+
+nav .BurgerMenu_container .close:nth-child(2) {
+  opacity: 1;
+}
+
+nav .BurgerMenu_container .close:nth-child(3) {
+  -webkit-transform: rotate(0s) translateY(0);
+          transform: rotate(0s) translateY(0);
+}
+
+.nav-list {
+  display: contents;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+}
+/*# sourceMappingURL=style.css.map */

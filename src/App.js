@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+// import BurgerMenu from './animations/BurgerMenu';
+// import styled, { ThemeProvider } from 'styled-components';
+// import {lightTheme, darkTheme} from './themes.js';
+import Routes from './Routes';
+// import MarsPage from './pages/MarsPage';
+// import EarthPage from './pages/EarthPage';
+import Navbar from './animations/BurgerMenu/Navbar';
+// import StyledApp from s
+// import StarShipPage from './pages/StarShipPage';
+// import { GlobalStyles } from '@mui/styled-engine';
 
-function App() {
+
+
+// const StyledApp = styled.div`
+//   color: ${(props) => props.theme.fontColor};
+// `;
+
+
+const App = () => {
+//   const [theme, setTheme] = useState('light');
+// const themeToggler = () => {
+//   theme === 'light' ? setTheme("dark") : setTheme('light');
+// };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Routes/>
     </div>
   );
-}
+};
 
 export default App;

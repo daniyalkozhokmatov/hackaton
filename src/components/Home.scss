@@ -1,0 +1,26 @@
+.pages{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    margin-bottom: 200px !important;
+}
+.text223{
+    display: flex;
+    font-size: 30px !important;
+    justify-content: center;
+    text-align: center;
+}
+
+img{
+    border-radius: 20px !important;
+}
+.MuiImageListItemBar-root{
+    border-radius: 20px !important;
+}
+
+.MuiImageListItemBar-title{
+    font-size: 2rem !important;
+}
+.MuiImageListItemBar-subtitle {
+    font-size: 1rem !important;
+}

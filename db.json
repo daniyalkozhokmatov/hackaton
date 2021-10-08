@@ -1,0 +1,13 @@
+{
+  "spacex": [
+    {
+      "model": "SN9",
+      "price": 67000,
+      "photo": "https://oir.mobi/uploads/posts/2019-11/1574901931_fordy-2.jpg",
+      "weight": "676",
+      "year": "23456",
+      "power": "56000",
+      "id": 1
+    }
+  ]
+}

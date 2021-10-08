@@ -1,0 +1,137 @@
+
+#footer {
+	padding: 100px 0;
+	background: #f5f5f5;
+	border-top: 2px solid #999
+}
+
+.footer {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 60px 0;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between
+}
+
+.footer-nav-links__list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	font-size: 30px;
+	left: 30%;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column
+}
+
+.footer-nav-links__item {
+	margin-top: 10px
+}
+
+.footer-nav-links__link {
+	color: #222;
+	-webkit-transition: .2s ease-out;
+	-o-transition: .2s ease-out;
+	transition: .2s ease-out;
+	font-size: 15px;
+	font-weight: 400
+}
+
+.footer-nav-links__link:hover {
+	color: #0193F3
+}
+
+.footer-contacts span {
+	font-size: 20px;
+	font-weight: 700
+}
+
+.footer-contacts__wrapper {
+	margin-top: 20px
+}
+
+.footer-contacts__wrapper ul {
+	list-style: none;
+	padding: 0
+}
+
+.footer-contacts__wrapper ul li {
+	font-size: 10px;
+	font-weight: 400;
+	margin-top: 10px
+}
+
+.footer-socials span {
+	font-size: 20px;
+	font-weight: 700
+}
+
+.footer-socials__wrapper {
+	margin-top: 20px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+
+.footer-socials__item {
+	width: 40px;
+	height: 40px;
+	background: #fff;
+	-webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 50%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin-left: 20px;
+	cursor: pointer;
+	-webkit-transition: .2s ease-out;
+	-o-transition: .2s ease-out;
+	transition: .2s ease-out
+}
+
+.footer-socials__item i {
+	font-size: 30px;
+	color: #767676;
+	-webkit-transition: .2s ease-out;
+	-o-transition: .2s ease-out;
+	transition: .2s ease-out
+}
+
+.footer-socials__item:first-child {
+	margin: 0
+}
+
+.footer-socials__item:hover i {
+	color: #0193F3
+}
+
+.footer-socials__item:hover {
+	-webkit-box-shadow: 0px 4px 10px rgba(1, 147, 243, 0.5);
+	box-shadow: 0px 4px 10px rgba(1, 147, 243, 0.5)
+}
+
+.logo--footer {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+
+.container {
+	max-width: 912px;
+	width: 100%;
+	margin: 0 auto
+}
