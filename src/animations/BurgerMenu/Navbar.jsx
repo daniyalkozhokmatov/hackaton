@@ -20,19 +20,19 @@ const Navbar = () => {
         </Link>
         <ul class="nav-list">
             <li>
-                <Link  >
+
                 <a href="#home" class="nav-link">Home</a>
-                </Link>
+
             </li>
             <li>
-                <Link to="/">
+
                 <a href="#mars" class="nav-link">Mars</a>
-                </Link>
+
             </li>
             <li>
-                <Link to="/" >
+
                 <a href="#earth" class="nav-link">Earth</a>
-                </Link>
+
             </li>
             <li>
                 <a href="#starship" class="nav-link">StarShip</a>
